@@ -4,19 +4,19 @@ const router = express.Router();
 router.get('/tweets', (req, res) => {
     const str = [
         {
-            "name": "Codr Kai",
+            "name": "James Park",
             "msg": "This is my first tweet!",
-            "username": "codrkai"
+            "username": "mandudu"
         },
         {
-            "name": "Samantha Kai",
+            "name": "James Park",
             "msg": "React JS is so simple!",
-            "username": "samanthakai"
+            "username": "mandudu"
         },
         {
             "name": "John K",
             "msg": "Sweep the leg!",
-            "username": "johnk"
+            "username": "mandudu"
         }
     ];
     res.end(JSON.stringify(str));
