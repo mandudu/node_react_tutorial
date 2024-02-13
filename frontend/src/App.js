@@ -11,8 +11,8 @@ function App() {
       <div className="App">
           <Nav />
           <Routes>
-            <Route path="/" element ={Home} />
-            <Route path="/tweets" element={Tweet} />
+            <Route path="/" element ={<Home />} />
+            <Route path="/tweets" element={<Tweet />} />
           </Routes>
       </div>
     </Router>
